@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/khagesh/fft32/fft32.xst" -ofn "C:/Users/khagesh/fft32/fft32.syr" 

@@ -1,0 +1,69 @@
+ISim log file
+Running: C:\Users\khagesh\fft32\fft32_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/khagesh/fft32/fft32_TB_isim_beh.wdb 
+ISim O.40d (signature 0xc4ca3437)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - Please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses")
+       to assist in obtaining a license.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+Invalid host.
+ The hostid of this system does not match the hostid
+ specified in the license file.
+Feature:       ISIM
+Hostid:        DISK_SERIAL_NUM=741cb829
+License path:  C:/.Xilinx\Xilinx.lic;C:/.Xilinx/Coregen/CoreLicenses\03512061711365211_ip_xap_349logicvcml_eval_flexlm.lic;
+FLEXnet Licensing error:-9,57
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.acresso.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/khagesh/fft32/fft16.v" Line 306.  For instance fft_16/UM1307/, width 36 of formal port DOR is not equal to width 35 of actual signal m1307r.
+WARNING: File "C:/Users/khagesh/fft32/fft16.v" Line 306.  For instance fft_16/UM1307/, width 36 of formal port DOI is not equal to width 35 of actual signal m1307i.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+    3666981,          0
+   -2635245,         34
+    1393407,         15
+     585939,          6
+   -2169549,         -1
+    3218932,          2
+   -3114695,         27
+    2114797,         12
+    -357672,         -1
+   -1442578,         -2
+    2830148,         21
+   -3259935,          3
+    2674074,         -1
+   -1200913,          5
+    -639647,          4
+    2282998,         35
+   -3185350,         -1
+    3053843,        -35
+   -1945621,        -16
+     184609,         -7
+    1616782,         -1
+   -2944688,         -3
+    3291205,        -28
+   -2650386,        -13
+    1104948,         -1
+     689247,          1
+   -2338222,        -22
+    3070568,         -4
+   -2932202,         -1
+    1560997,         -6
+     105405,         -5
+   -2628192,        -36
+Stopped at time : 379890 ns : File "C:/Users/khagesh/fft32/fft32_TB.v" Line 23

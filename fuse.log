@@ -1,0 +1,40 @@
+Running: D:\Xilinx\13.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/khagesh/fft32/fft32_TB_isim_beh.exe -prj C:/Users/khagesh/fft32/fft32_TB_beh.prj work.fft32_TB work.glbl 
+ISim O.40d (signature 0xc4ca3437)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file \"C:/Users/khagesh/fft32/mpuc924_383.v\" into library work
+Analyzing Verilog file \"C:/Users/khagesh/fft32/mpuc707.v\" into library work
+Analyzing Verilog file \"C:/Users/khagesh/fft32/mpuc541.v\" into library work
+Analyzing Verilog file \"C:/Users/khagesh/fft32/mpuc1307.v\" into library work
+Analyzing Verilog file \"C:/Users/khagesh/fft32/weight.v\" into library work
+Analyzing Verilog file \"C:/Users/khagesh/fft32/RAM1.v\" into library work
+Analyzing Verilog file \"C:/Users/khagesh/fft32/odd_RAM.v\" into library work
+Analyzing Verilog file \"C:/Users/khagesh/fft32/fft16.v\" into library work
+Analyzing Verilog file \"C:/Users/khagesh/fft32/fft32.v\" into library work
+Analyzing Verilog file \"C:/Users/khagesh/fft32/READ_ROM32.v\" into library work
+Analyzing Verilog file \"C:/Users/khagesh/fft32/hilbert.v\" into library work
+Analyzing Verilog file \"C:/Users/khagesh/fft32/fft32_TB.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/13.1/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/khagesh/fft32/fft16.v" Line 310: Size mismatch in connection of port <DOR>. Formal port size is 36-bit while actual signal size is 35-bit.
+Completed static elaboration
+Compiling module READ_ROM32
+Compiling module RAM1(total_bits=32)
+Compiling module MPUC707(total_bits=35)
+Compiling module MPUC541(total_bits=35)
+Compiling module MPUC1307(total_bits=35)
+Compiling module MPUC924_383(total_bits=35)
+Compiling module fft16(total_bits=32)
+Compiling module weight(total_bits=32)
+Compiling module odd_RAM(total_bits=32)
+Compiling module fft32(total_bits=32)
+Compiling module hilbert
+Compiling module fft32_TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 13 Verilog Units
+Built simulation executable C:/Users/khagesh/fft32/fft32_TB_isim_beh.exe
+Fuse Memory Usage: 23752 KB
+Fuse CPU Usage: 296 ms

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/khagesh/fft32/fft32_TB_isim_beh.exe" -prj "C:/Users/khagesh/fft32/fft32_TB_beh.prj" "work.fft32_TB" "work.glbl" 
